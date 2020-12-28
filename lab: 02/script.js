@@ -13,12 +13,11 @@ else {
 
 console.log(thename)
 
-var ansewr = prompt("are you a LTUC student ? yes/no")
+var aboutguest = prompt("are you a LTUC student ? yes/no")
 
-if (ansewr.toLocaleLowerCase() === 'yes' || ansewr.toLocaleLowerCase() === 'y') {
+if (aboutguest.toLocaleLowerCase() === 'yes' || aboutguest.toLocaleLowerCase() === 'y') {
     prompt("are you software engineeer student? yes/no")
 
-} else if (ansewr.toLocaleLowerCase() === 'no' || ansewr.toLocaleLowerCase() === 'n') {
+} else if (aboutguest.toLocaleLowerCase() === 'no' || aboutguest.toLocaleLowerCase() === 'n') {
     prompt("do have any programing expeirence ? yes/no")
 
-}
