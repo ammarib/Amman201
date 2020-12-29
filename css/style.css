@@ -32,10 +32,9 @@ a {
 
 
 body {
-    background: url(img.jpg) no-repeat center center fixed;
+    background: url(img/photo.jpg) no-repeat center center fixed;
     color: rgb(255, 255, 255);
-  
-    
+     
 }
 p {
     display:inline-block ;
