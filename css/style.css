@@ -7,7 +7,7 @@ nav {
     margin-top: 70px;
 }
 
-ul {
+.thelist{
   list-style-type: none;
   display: block;
   color: antiquewhite;
@@ -32,14 +32,23 @@ a {
 
 
 body {
-    background: url(img/photo.jpg) no-repeat center center fixed;
+    background: url(../img/photo.jpg) no-repeat center center fixed;
     color: rgb(255, 255, 255);
-     
+  
+    
 }
-p {
+div {
+    float: left;
     display:inline-block ;
-    background-color: rgb(145, 55, 55);
+    background-color: rgb(145, 55, 55, 0.2);
+    backdrop-filter: blur(8px);
     font-size: 25px;
-    margin-top: 2px;
-margin-bottom: 2px;
+    margin-right: 100px;
+    margin-bottom: 10px;
+}
+footer{
+    clear: both;
+    position: relative;
+    height: 200px;
+    margin-top: -200px;    
 }
